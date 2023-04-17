@@ -1,0 +1,22 @@
+{
+	"name": "DS_Module11_2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageModule11_2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "module11"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

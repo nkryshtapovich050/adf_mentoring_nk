@@ -1,0 +1,23 @@
+{
+	"name": "DS_Module11",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageModule11",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "credits.csv",
+				"container": "module11"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

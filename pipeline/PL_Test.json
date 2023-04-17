@@ -1,0 +1,23 @@
+{
+	"name": "PL_Test",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL_AlwaysFailed_Module10",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-04-06T21:28:48Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

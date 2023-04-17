@@ -1,0 +1,24 @@
+{
+	"name": "PL_AlwaysFailed_Module10",
+	"properties": {
+		"description": "pipeline which always fails",
+		"activities": [
+			{
+				"name": "Fail-Activity-Demo",
+				"type": "Fail",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"message": "500",
+					"errorCode": {
+						"value": "Error Occurred",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-04-06T18:52:24Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
