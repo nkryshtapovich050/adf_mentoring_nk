@@ -1,0 +1,6 @@
+{
+	"HttpUrlFromSecret": {
+		"type": "string",
+		"value": "https://mentoring-key-vault-nk4.vault.azure.net/secrets/http-post-url/c78207b416ab4d00af5bd31416ba37a8"
+	}
+}
